@@ -11,10 +11,6 @@
     </head>
     
     <jsp:useBean id="mov" class="model.Products" scope="request"/>
-     <%       
-            List<Products> movList = ProductsTable.findAllProducts();
-            Iterator<Products> itr = movList.iterator();     
-     %>
     <body>
         <form name="addMovie" action="AddMovieController" method="POST">
             <center>
